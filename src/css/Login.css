@@ -1,0 +1,10 @@
+.login-box{
+    margin-top: 20px;
+}
+
+.login-content{
+    margin: 20px;
+    padding: 20px;
+    border: solid 1px gray;
+    border-radius: 10px;
+}

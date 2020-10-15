@@ -6,13 +6,16 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { UrlProvider } from './store/UrlProvider'
 import { LoginProvider } from './store/LoginProvider'
+import { UserProvider } from './store/UserProvider'
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <UrlProvider>
         <LoginProvider>
-          <App />
+          <UserProvider>
+            <App />
+          </UserProvider>
         </LoginProvider>
       </UrlProvider>
     </Router>

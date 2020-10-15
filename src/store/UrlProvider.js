@@ -3,7 +3,7 @@ export const UrlContext = createContext({})
 
 
 const initialState = {
-    url:"http://localhost/"
+    url:"http://localhost/school/"
 }
 
 
