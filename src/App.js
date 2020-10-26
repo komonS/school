@@ -6,6 +6,7 @@ import Header from './component/layout/Header';
 import Menu from './component/layout/Menu'
 import Home from './component/content/Home'
 import Login from './component/content/Login';
+import School from './component/content/School'
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         <Menu />
         <div id="content">
           <Switch>
+            <Route path="/school/:id">
+              <School />
+            </Route>
             <Route path="/login">
               <Login />
             </Route>
@@ -24,7 +28,7 @@ function App() {
           </Switch>
         </div>
         <div>
-          <Footer/>
+          <Footer />
         </div>
       </div>
     </div>

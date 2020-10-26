@@ -1,0 +1,26 @@
+.school-card{
+    padding: 10px;
+}
+
+.school-content{
+    margin-top: 30px;
+}
+.school-header{
+    padding: 5px;
+    width: 100%;
+}
+.school-header-picture-box{
+    width: 20%;
+}
+.school-header-picture{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.school-header-name{
+    float: left;
+    width: 80%;
+    padding: 10px;
+    padding-left: 50px;
+    justify-content: center;
+}

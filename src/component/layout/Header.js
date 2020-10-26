@@ -83,8 +83,9 @@ export default function Header() {
             <button className="navbar-toggler" id="sidebarCollapse" type="button" data-toggle="collapse">
                 <span className="navbar-toggler-icon" />
             </button>
-
-            <a className="navbar-brand justify-content-center" href="#">School</a>
+            <Link className="navbar-brand justify-content-center" to="/">
+                School
+            </Link>
 
 
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

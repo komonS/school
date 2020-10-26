@@ -41,7 +41,7 @@ export default function SchoolMenu() {
 
     return (
         <li>
-            <a href="#schoolSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">School</a>
+            <a href="#schoolSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">My School</a>
             <ul className="collapse list-unstyled" id="schoolSubmenu">
                 {school.map((item, index) => (
                     <li key={index}>
